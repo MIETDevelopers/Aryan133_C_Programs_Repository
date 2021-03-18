@@ -1,5 +1,7 @@
 /*
 Author AryanSharma 133
+Creation Date:18/3/2021
+Last Modification:18/3/2021
 A program to calculate Area/Perimeter of different shapes.
 Formulas:
 	Perimeter of Square: 4 * side
@@ -14,7 +16,7 @@ int main(){
 	char operation;  //Declarartion of variable data type
 	float radius, sideOfSquare, sideOfRectangle1, sideOfRectangle2;  //Declarartion of variables data type 
 	printf("What do you want to calculate:\n 1.Perimeter of circle.\n 2.Area of circle.\n 3.Perimeter of square.\n 4.Area of square.\n 5.Perimeter of rectangle.\n 5.Area of rectangle.\n");
-	scanf("%c",&operation);
+	scanf("%c",&operation);//It will scan the operation entered by user.
 	switch(operation){ //Switch case function
 		case'1':
 			printf("Enter radius of circle\n");  //Printf function calling.
