@@ -9,16 +9,16 @@ int main(){        //It means that our will return some integer value at the end
     scanf("%lf %lf",&n1, &n2);	//scanf function calling
     switch(operator){
         case '+':
-            printf("%.1lf + %.1lf = %.1lf",n1, n2, n1+n2);//to be executed if operator = +;
+            printf("%.1lf + %.1lf = %.2lf",n1, n2, n1+n2);//to be executed if operator = +;
             break; 
         case '-':
-            printf("%.1lf - %.1lf = %.1lf",n1, n2, n1-n2);//to be executed if operator = -;
+            printf("%.1lf - %.1lf = %.2lf",n1, n2, n1-n2);//to be executed if operator = -;
             break; 
         case '*':
             printf("%.1lf * %.3lf = %.2lf",n1, n2, n1*n2);//to be executed if operator = *;
             break;
         case '/':
-            printf("%.1lf / %.1lf = %.1lf",n1, n2, n1/n2);//to be executed if operator = /;
+            printf("%.1lf / %.1lf = %.2lf",n1, n2, n1/n2);//to be executed if operator = /;
             break;
         default:  //code to be executed if operator doesn't match any cases
             printf("Error! operator is not correct");
