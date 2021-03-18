@@ -1,7 +1,7 @@
 //Author AryanSharma 133
 //Creation Date:18/3/2021
 //Last Modification:18/3/2021
-#include <stdio.h> //stdio.h is the header file for standard input and output.
+#include<stdio.h> //stdio.h is the header file for standard input and output.
 int main(){       
     char operator; //Declarartion of variables data type 
     double n1, n2; //Declarartion of variables data type 
