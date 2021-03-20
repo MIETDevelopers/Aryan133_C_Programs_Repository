@@ -11,10 +11,10 @@ Formulas:
 	Area of Rectangle: Length * Breadth
 	Area of Circle: (22/7)*radius*radius 
 */ 
-#include <stdio.h>
+#include <stdio.h>  //stdio.h is the header file for standard input and output.
 int main(){
-	char operation;  //Declarartion of variable data type
-	float radius, sideOfSquare, sideOfRectangle1, sideOfRectangle2;  //Declarartion of variables data type 
+	char operation;  //Variable declarartion of character data type
+	float radius, sideOfSquare, sideOfRectangle1, sideOfRectangle2;  ////Variable declarartion of float data type
 	printf("What do you want to calculate:\n 1.Perimeter of circle.\n 2.Area of circle.\n 3.Perimeter of square.\n 4.Area of square.\n 5.Perimeter of rectangle.\n 5.Area of rectangle.\n");
 	scanf("%c",&operation);//It will scan the operation entered by user.
 	switch(operation){ //Switch case function
@@ -49,7 +49,7 @@ int main(){
 			printf("Area of rectangle = %f", sideOfRectangle1*sideOfRectangle2);
 			break;
 		default: //code to be executed if operator doesn't match any cases.
-			printf("Error eccoured, input values are incorrect");
+			printf("Error occoured, input values are incorrect");
 	}
 	return 0;
 }
