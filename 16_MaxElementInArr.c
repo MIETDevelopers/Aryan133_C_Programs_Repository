@@ -4,14 +4,15 @@ Creation Date:21/3/2021
 Last Modification:21/3/2021
 Purpose: A program to find the largest number in a user defined array.
 */
-#include<stdio.h>   //Pre-process directive to include standard input and output functions header file
+#include<stdio.h>   //Pre-process directive to include standard input and output functions header file.
 int main(){ 	    //Main function body start.
 	int i, noe;			//varialble declaration of integer data type.
 	float arr[99];      //array declaration of float data type.
 	printf("Enter number of elements you want to evaluate:",&noe);   //Printf function calling
-	scanf("%d",&noe);
-	printf("\nPlease enter %d numbers:\n",noe); 
-	for (i = 0; i < noe; ++i){   //declaration of a for loop to find the max element and index
+	scanf("%d",&noe);   
+	printf("\nPlease enter %d numbers:\n",noe);  //printf function calling
+	for (i = 0; i < noe; ++i){   //declaration of a for loop to find the max element and index  
+    	                         //"noe" will declare how many elements user can put in array.
     	scanf("%f", &arr[i]);
 	}
 		for (i = 1; i < noe; ++i){
