@@ -2,7 +2,7 @@
 Author Aryan Sharma 133
 Creation Date:27/3/2021
 Last Modification:27/3/2021
-Purpose: Program to demonstrate the use of free() function.
+Purpose:  Program to demonstrate the use of free() function.
 */
 #include <stdio.h> 			//Pre-process directive to include standard input and output functions header file
 #include <stdlib.h> //Using standard library header file.
